@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 786px;
+    height: 48px;
+    margin: 0 auto;
+    background: url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo.png)
+    no-repeat center;
+}
+h2{
+    font-size: 30px;
+    font-weight: normal;
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    text-align: center;
+}
+.content{
+    height: 385px;
+    width: 786px;
+    margin: 30px auto;
+    text-align: center;
+}
+.form-box{
+    width:332px;;
+    margin: 0 auto;
+    text-align: left;
+}
+#re-inp,#re-num{
+    width:100% ;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+#re-sub{
+    width:100% ;
+    height: 40px;
+    border: none;
+    background-color:#ff6700;
+    color: #ffffff;
+    margin-top: 30px;
+}
+p{
+    margin-top: 20px;
+}
+h3{
+    margin-top: 50px;
+    font-weight: normal;
+}

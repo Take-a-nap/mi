@@ -15,26 +15,26 @@
 h3{
     font-weight: normal;
 }
-.content-left{
-    position: relative;
-    height: 650px;
-    margin-left: 0;
-    width: 570px;
-}
-.tal-box{
-    position: absolute;
-    bottom: 10px;
-    left: 35%;
-    z-index: 99;
-}
-.tal-box .tal{
-    padding-left: 10px;
-    font-size: 28px;
-}
-.content-img{
-    top: 10%;
-    z-index: 10;
-}
+/*.content-left{*/
+    /*position: relative;*/
+    /*height: 650px;*/
+    /*margin-left: 0;*/
+    /*width: 570px;*/
+/*}*/
+/*.tal-box{*/
+    /*position: absolute;*/
+    /*bottom: 10px;*/
+    /*left: 35%;*/
+    /*z-index: 99;*/
+/*}*/
+/*.tal-box .tal{*/
+    /*padding-left: 10px;*/
+    /*font-size: 28px;*/
+/*}*/
+/*.content-img{*/
+    /*top: 10%;*/
+    /*z-index: 10;*/
+/*}*/
 .content-right{
     width: 600px;
     height: 703px;

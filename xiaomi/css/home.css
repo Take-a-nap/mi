@@ -1,5 +1,24 @@
 
 /*子导航区域*/
+.nav-hid-ul{
+    position: absolute;
+    left: -200px;
+    top: 100px;
+    height: 200px;
+    width: 1226px;
+    background-color: #ffffff;
+    z-index: 888;
+    box-shadow: 0px 0px 5px #888888;
+    display: none;
+}
+.nav-list-li:hover .nav-hid-ul{
+    display: block;
+}
+.nav-hid-li{
+    float: left;
+    width: 330px;
+    height: 220px;
+}
 .subnav{
     height: 460px;
     position: relative;
@@ -23,7 +42,7 @@
 .nav-left-arrows,.nav-right-arrows{
     position: absolute;
     top:40%;
-    z-index:999;
+    z-index:99;
     width: 41px;
     height: 69px;
 }
@@ -41,27 +60,50 @@
 /*自导航栏目区域*/
 .subnav-menu{
     position: absolute;
-    z-index: 100;
     width: 234px;
     height: 100%;
     background: rgba(0,0,0,0.6);
+    z-index: 100;
 }
 .subnav-menu-ul{
     padding-top: 20px;
-}
-.subnav-menu-li{
-    padding: 10px 20px;
     position:relative;
 }
-.icon-youbian{
+.subnav-menu-li{
+    width: 224px;
+    height: 45px;
+    padding-left: 10px;
+}
+.menu-son-ul{
+    /*display: none;*/
     position: absolute;
-    right: 0;
-    top: 15px;
-    color: rgba(255,255,255,0.5);
+    top: 0px;
+    left: 100%;
+    z-index: 99;
+    width: 996px;
+    height: 460px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #888888;
+    display: none;
+}
+.menu-son-li{
+   float: left;
+    margin: 50px;
+}
+.subnav-menu-li:hover .menu-son-ul{
+    display: block;
+}
+.menu-sp{
+    float: right;
+    padding-right: 30px;
 }
 .subnav-menu-a{
     color:#fff;
     font-size: 14px;
+    width: 234px;
+    line-height: 20px;
+    height: 20px;
+    display: block;
 }
 /*子导航下面区域*/
 .subnav-bottom{
