@@ -1,0 +1,130 @@
+/*公用样式*/
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+
+}
+ul {
+    list-style: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.main{
+    width: 1226px;
+    margin: 0 auto;
+}
+/*顶部区域样式*/
+.header {
+    min-width: 1226px;
+    height: 36px;
+    background-color: #333333;
+}
+.header-left-li,.header-right-li{
+    float: left;
+}
+.header-a,.header-a1{
+    border-right: 1px solid #393e42;
+    padding: 0 5px;
+    line-height: 36px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.header-a1{
+    border: none;
+}
+.icon-gouwuche{
+    margin-right: 10px;
+}
+/*导航区域样式*/
+.nav{
+    height: 100px;
+    position: relative;
+}
+/*导航区域LOGO*/
+.nav-left{
+    position: absolute;
+    top:20px;
+    left: 0;
+    width: 55px;
+    height: 55px;
+    background:orangered url(https://s01.mifile.cn/i/mi-logo.png) no-repeat;
+}
+/*导航区域列表*/
+.nav-list{
+    position: absolute;
+    left: 200px;
+    top:0;
+    z-index: 10;
+    width: 820px;
+    height: 88px;
+    margin: 0;
+    padding: 12px 0 0 30px;
+    list-style-type: none;
+    font-size: 16px;
+}
+.nav-list-li{
+    float: left;
+}
+.nav-list-a{
+    color: #333;
+    display: block;
+    padding: 26px 10px 38px;
+}
+/*导航区右边表单搜索框*/
+
+.nav-right{
+    position: absolute;
+    top:20px;
+    right: 0;
+    width: 270px;
+    z-index: 80;
+}
+.nav-form{
+    position: relative;
+    width: 270px;
+    height: 52px;
+}
+#nav-but{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    line-height: 24px;
+    background: #fff;
+    color: #616161;
+}
+#nav-inp{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 223px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 48px;
+}
+.nav-form-a1,.nav-form-a2{
+    position: absolute;
+    color: #757575;
+    font-size: 12px;
+    background: #eee;
+    padding: 2px;
+}
+.nav-form-a1{
+    left: 80px;
+    top:15px;
+}
+.nav-form-a2{
+    right: 80px;
+    top:15px;
+}

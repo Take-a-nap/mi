@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+.header{
+    width: 1130px;
+    margin: 0 auto;
+}
+.h_logo{
+    display: block;
+    width: 200px;
+    height: 98px;
+    background: url("https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png") no-repeat;
+}
+.content{
+    width: 100%;
+    position: relative;
+    height: 588px;
+    text-align: center;
+}
+.content-a{
+    display: block;
+    background: url("https://i6.mifile.cn/b2c-mimall-media/cd392f87b6584283a5a1fd285418b654.jpg") no-repeat top center;
+    width: 100%;
+    height: 588px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.content-box{
+    width: 410px;
+    min-height: 524px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+}
+.hr_span{
+    display: inline-block;
+    border-top: 1px solid #e0e0e0;
+    width: 120px;
+    position: relative;
+    top: -5px;
+}
+.tag-li{
+    float: left;
+    margin-left: 40px;
+}
+.tag-span{
+    color: #757575;
+}
+#inp,#pas{
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+#sub{
+    width: 312px;
+    height: 50px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color:#ef5b00;
+    border: none;
+}
+p{
+    margin-top: 30px;
+}
+.p-i{
+    font-style: normal;
+    font-size: 30px;
+    color: #666;
+}
+.p-i1{
+    color:#ef5b00;
+}
+form{
+    margin-top: 30px;
+}
+.add-a{
+    font-size: 12px;
+}
+.hr-box{
+    margin-top: 50px;
+}
+.footer{
+    height: 58px;
+    width: 1130px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-p{
+    line-height: 58px;
+}

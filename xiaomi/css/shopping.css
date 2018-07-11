@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 74px;
+    width: 1226px;
+    margin: 30px auto;
+}
+.header-logo{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url("https://s01.mifile.cn/i/mi-logo.png") no-repeat 50% 50% #ff6700;
+}
+h1{
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 50px;
+}
+.head-big{
+    width: 100%;
+    height: 102px;
+    border-bottom: 4px solid #ff6700;
+}
