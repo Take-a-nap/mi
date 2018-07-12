@@ -1,0 +1,8 @@
+[
+  {"id":1,"name":"牙刷","prcice":10,"number":1},
+  {"id":2,"name":"电脑","prcice":8000,"number":1},
+  {"id":3,"name":"水杯","prcice":15,"number":5},
+  {"id":4,"name":"洗发水","prcice":20,"number":5},
+  {"id":5,"name":"牙膏","prcice":18,"number":2},
+  {"id":6,"name":"薯条","prcice":3,"number":3}
+]
